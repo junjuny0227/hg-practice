@@ -1,5 +1,11 @@
+import { Button } from "@/components";
+
 const Main = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Button>button</Button>
+    </div>
+  );
 };
 
 export default Main;

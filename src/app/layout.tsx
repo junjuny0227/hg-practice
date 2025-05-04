@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import "./styles/global.css";
+import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "admin",
-  description: "admin",
+  title: "HG Practice",
+  description: "HG Practice",
 };
 
 const RootLayout = ({
@@ -17,4 +17,5 @@ const RootLayout = ({
     </html>
   );
 };
+
 export default RootLayout;

@@ -3,6 +3,8 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { PropsWithChildren } from "react";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Provider = ({ children }: PropsWithChildren) => {
   const queryClient = new QueryClient({
@@ -16,6 +18,7 @@ const Provider = ({ children }: PropsWithChildren) => {
   return (
     <QueryClientProvider client={queryClient}>
       {children}
+      <ToastContainer />
       <ReactQueryDevtools />
     </QueryClientProvider>
   );

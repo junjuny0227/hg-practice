@@ -1,9 +1,9 @@
-import { Badge } from "@/components";
+import { Input } from "@/components";
 
 const Main = () => {
   return (
     <div>
-      <Badge variant="합격">합격</Badge>
+      <Input />
     </div>
   );
 };

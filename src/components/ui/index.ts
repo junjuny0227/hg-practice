@@ -5,3 +5,4 @@ export * from "./badge";
 export * from "./input";
 export * from "./table";
 export * from "./toggle";
+export * from "./alert-dialog";
